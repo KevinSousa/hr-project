@@ -1,6 +1,0 @@
-spring:
-  application:
-    name: hr-eureka-server
-
-eureka:  client:    fetch-registry: false
-    register-with-eureka: false
