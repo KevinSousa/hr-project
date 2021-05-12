@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: hr-config-server
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/KevinSousa/hr-project-config
+server:
+  port: 8888
